@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Spartan:wght@600&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: rgba(254, 251, 255, 0.233);
+}
+.appTitle {
+  font-family: "Balsamiq Sans", cursive;
+}
+.content {
+  height: 30rem;
+  width: 40rem;
+  margin: 0 auto 2rem;
+  background-color: #832e8be8;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 20px rgb(44, 0, 53);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: "Balsamiq Sans", cursive;
+}
+.input {
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  background-color: #9c5bbb;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.863);
+  font-size: 1.1rem;
+}
+.btn {
+  margin: 1rem auto 1.2rem;
+  padding: 0.5rem;
+  background-color: #9c5bbb;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.863);
+  font-size: 1.1rem;
+  font-family: "Balsamiq Sans", cursive;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+.para {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Spartan", sans-serif;
+  font-size: 1.2rem;
+}
